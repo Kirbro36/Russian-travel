@@ -9,5 +9,6 @@
     .footer__links {
         grid-template-columns: repeat(1, max-content);
         gap: 33px;
+        margin-top: 33px;
     }
 }
