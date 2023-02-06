@@ -3,21 +3,25 @@
     max-width: 640px;
     text-align: center;
     font-size: 30px;
-    margin: 0 auto;
+    margin: 23px auto 0;
     line-height: 120%;
-    padding-top: 32px;
 }
 
 @media screen and (max-width: 1024px) {
     .lead__subtitle {
-        padding: 35px 64px 0;
+        margin-top: 34px;
     }
 }
 
+@media screen and (max-width: 768px) {
+    .lead__subtitle {
+        margin-top: 30px;
+    }
+}
 @media screen and (max-width: 320px) {
     .lead__subtitle {
         font-size: 16px;
         line-height: 125%;
-        padding: 16px 16px 0;
+        margin-top: 21px;
     }
 }

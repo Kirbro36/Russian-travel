@@ -10,6 +10,8 @@
 @media screen and (max-width: 768px) {
     .intro__text {
         max-width: 720px;
+        margin: 0;
+        padding-top: 34px;
     }
 }
 
@@ -22,6 +24,6 @@
 @media screen and (max-width: 340px) {
     .intro__text {
         max-width: 288px;
-        padding: 0;
+        padding-top: 43px;
     }
 }
