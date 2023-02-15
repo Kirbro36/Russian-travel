@@ -9,21 +9,22 @@
 }
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1140px) {
     .places {
         max-width: 928px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 820px) {
     .places {
         max-width: 720px;
         gap: 72px;
     }
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 530px) {
     .places {
+        max-width: 100%;
         margin: 0 auto 0;
         gap: 50px;
     }

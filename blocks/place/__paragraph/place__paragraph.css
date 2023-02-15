@@ -3,36 +3,38 @@
     font-size: 18px;
     line-height: 163%;
     margin: 0 auto 26px;
-}
-
-.place__paragraph:last-of-type {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 163%;
+  }
+  
+  .place__paragraph:last-of-type {
     margin-bottom: 0;
-}
-
-@media screen and (max-width: 768px) {
+  }
+  
+  @media screen and (max-width: 1024px) {
     .place__paragraph {
-        font-size: 16px;
+      font-size: 18px;
+      margin: 0 auto 25px;
     }
-}
-
-@media screen and (max-width: 768px) {
+  }
+  
+  @media screen and (max-width: 840px) {
+    .place__paragraph {
+      padding: 0 16px;
+    }
+  
     .place__paragraph:last-of-type {
-        font-size: 16px;
+      margin-bottom: 0;
     }
-}
+  }
 
-@media screen and (max-width: 320px) {
+  @media screen and (max-width: 600px) {
     .place__paragraph {
         padding: 0 16px 0;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
     .place__paragraph:last-of-type {
         margin-bottom: 0;
         padding-top: 0;
     }
-}
+} 

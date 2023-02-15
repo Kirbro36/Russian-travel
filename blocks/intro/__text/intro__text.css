@@ -2,28 +2,27 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 163%;
-    max-width: 690px;
+    /* max-width: 690px; */
     width: 100%;
     margin: 40px 0 0;
 }
 
 @media screen and (max-width: 768px) {
     .intro__text {
-        max-width: 720px;
         margin: 0;
-        padding-top: 34px;
+        padding-top: 40px;
     }
 }
 
-@media screen and (max-width: 512px) {
+/* @media screen and (max-width: 512px) {
     .intro__text {
         max-width: 490px;
     }
-}
+} */
 
 @media screen and (max-width: 340px) {
     .intro__text {
         max-width: 288px;
-        padding-top: 43px;
+        padding-top: 40px;
     }
 }

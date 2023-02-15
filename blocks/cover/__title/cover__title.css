@@ -6,7 +6,7 @@
     color: #fff;
     line-height: 106%;
     text-align: center;
-    margin: 0 0 16px;
+    margin: 0;
     max-width: 560px;
     width: 100%;
     z-index: 3;
@@ -14,11 +14,11 @@
 
 @media screen and (max-width: 1024px) {
     .cover__title { 
-        margin: 0 0 30px;
+        margin: 0 0 32px;
     }
 }
 
-@media screen and (max-width: 510px){
+@media screen and (max-width: 768px){
     .cover__title {
         font-size: 46px;
     }
@@ -27,7 +27,7 @@
 @media screen and (max-width: 320px) {
     .cover__title {
         font-size: 32px;
-        margin: 12px auto 0;
+        margin: 6px auto 0;
         max-width: 288px;
     }
 }
