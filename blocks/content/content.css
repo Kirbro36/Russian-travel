@@ -1,6 +1,7 @@
 .content {
     display: grid;
     grid-row-gap: 92px;
+    border: 1px solid red;
 }
 
 @media screen and (max-width: 768px) {

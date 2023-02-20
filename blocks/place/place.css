@@ -16,14 +16,13 @@
     .place {
         grid-template-columns: 330px 1fr;
         column-gap: 28px;
-        /* max-height: 100%; */
     }
 }
 
 @media screen and (max-width: 610px) {
     .place {
         max-width: 320px;
-        gap: 30px;
+        gap: 32px;
         grid-template-columns: 100%;
     }
 }
